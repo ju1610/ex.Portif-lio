@@ -1,0 +1,113 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f1f5f9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* FORMATO A4 */
+  .a4 {
+    width: 21cm;
+    height: 29.7cm;
+    background: white;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* PERFIL */
+  .perfil {
+    flex: 1;
+    min-width: 250px;
+    text-align: center;
+  }
+  
+  .perfil img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #facc15;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .perfil h1 {
+    font-size: 1.5rem;
+    color: #1f2937;
+  }
+  
+  .perfil h2 {
+    font-size: 1rem;
+    color: #6b7280;
+    margin: 5px 0 10px;
+  }
+  
+  .perfil p {
+    font-size: 0.95rem;
+    color: #4b5563;
+    margin-bottom: 15px;
+  }
+  
+  .redes a {
+    margin: 0 8px;
+    text-decoration: none;
+    color: #4f46e5;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  /* CONTEÚDO À DIREITA */
+  .conteudo {
+    flex: 2;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: stretch;
+  }
+  
+  /* CARTÕES: Hobbies e Projetos */
+  .card {
+    flex:2;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    height: auto;
+  }
+  
+  .card h3 {
+    font-size: 1.2rem;
+    color: #1f2937;
+    margin-bottom: 10px;
+  }
+  
+  .card ul {
+    list-style: none;
+  }
+  
+  .card li {
+    font-size: 0.95rem;
+    margin: 6px 0;
+  }
+  
+  .card strong {
+    color: #111827;
+  }
+
+  .hobbies, .projetos {
+    margin-bottom: 20px;
+  }
+  
